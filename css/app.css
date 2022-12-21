@@ -40,22 +40,48 @@ a {
     height: 27px;
 }
 
-.button-inizia {
+.button {
     padding: 11px 18px;
     color: white;
     background-color: #0061ff;
 }
 
-/*MAIN**********************************************************************/
+/*MAIN1*********************************************************************/
+
+.main1 {
+    height: 844px;
+    background-color: #b4d0e7;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container-main1 {
+    width: 1235px;
+    padding-top: 111px;
+}
+
+.container-main1 .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-main1 h2 {
+    font-size: 74px;
+    font-family: sans-serif;
+    font-weight: 1000;
 
 
-
-
-
+}
 
 
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
 
-.debug main {
-    background-color: #b4d0e7;
+.debug .container-main1 {
+    border: 3px dotted red;
+}
+
+.debug .col {
+    border: 2px solid black;
 }
