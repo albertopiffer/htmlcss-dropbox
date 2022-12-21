@@ -7,3 +7,34 @@
 ul, ol, menu {
 	list-style: none;
 }
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+/*********************************************************************/
+
+.container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 84px;
+    background-color: white;
+}
+
+.container-head ul {
+    display: flex;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+.logo-head {
+    height: 27px;
+}
+
+.debug main {
+    background-color: aquamarine;
+}
