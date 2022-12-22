@@ -128,7 +128,7 @@ a {
 
 .container-main2 {
     width: 1050px;
-    margin: 50px auto 0;
+    margin: 100px auto 150px;
 
     font-family: sans-serif;
     font-size: 17px;
@@ -280,6 +280,37 @@ a {
     margin-top: 40px;
 }
 
+/*MAIN2*********************************************************************/
+
+.container-main3 {
+    width: 1050px;
+    margin: 150px auto;
+
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.container-main3 .row {
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.container-main3 img {
+    width: 620px;
+}
+
+.container-main3 .col {
+    flex-basis: 40%;
+    padding: 60px 50px;
+}
+
+.container-main3 h3 {
+    font-size: 22px;
+    margin: 16px 0;
+}
+
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
 
 .debug .container-main1 {
@@ -287,6 +318,10 @@ a {
 }
 
 .debug .container-main2 {
+    border: 3px dotted red;
+}
+
+.debug .container-main3 {
     border: 3px dotted red;
 }
 
