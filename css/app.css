@@ -284,7 +284,7 @@ a {
     margin-top: 40px;
 }
 
-/*MAIN2*********************************************************************/
+/*MAIN3*********************************************************************/
 
 .container-main3 {
     width: 1050px;
@@ -324,6 +324,47 @@ a {
     width: max-content;
 }
 
+/*MAIN4*********************************************************************/
+
+.container-main4 {
+    width: 1050px;
+    margin: 175px auto;
+
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.container-main4 .row {
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.container-main4 h2 {
+    font-size: 42px;
+}
+
+.container-main4 .card4 {
+    flex-basis: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 80px;
+}
+
+.container-main4 img {
+    align-self: center;
+    width: 100%;
+}
+
+.container-main4 h3 {
+    font-size: 22px;
+    margin: 30px 0;
+}
+
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
 
 .debug .container-main1 {
@@ -335,6 +376,10 @@ a {
 }
 
 .debug .container-main3 {
+    border: 3px dotted red;
+}
+
+.debug .container-main4 {
     border: 3px dotted red;
 }
 
