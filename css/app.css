@@ -214,8 +214,12 @@ a {
     color: #005eff;
 }
 
-.container-main2 .li-user1::before {
+.container-main2 .li-user::before {
     content: "\f007";
+}
+
+.container-main2 .li-users::before {
+    content: "\f0c0";
 }
 
 .container-main2 .li-folder::before {
