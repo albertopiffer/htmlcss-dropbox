@@ -156,7 +156,11 @@ a {
 .radio-m2 input {
     font-size: 14px;
 
-    margin: 25px;
+    margin: 25px 5px 25px 0;
+}
+
+.radio-m2 span {
+    margin-right: 50px;
 }
 
 .container-main2 .card {
@@ -185,7 +189,7 @@ a {
     margin: 10px 0;
 }
 
-.container-main2 span {
+.card-bottom span {
     color: #9fa6ae;
     margin: 10px 0;
 
@@ -231,7 +235,7 @@ a {
     content: "\f1e0";
 }
 
-.card .button {
+.container-main2 .button {
     margin: 10px auto;
 
     display: block;
@@ -309,6 +313,15 @@ a {
 .container-main3 h3 {
     font-size: 22px;
     margin: 16px 0;
+}
+
+.button-t {
+    border: 2px solid black;
+    padding: 15px;
+
+    margin-top: 36px;
+    display: block;
+    width: max-content;
 }
 
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
