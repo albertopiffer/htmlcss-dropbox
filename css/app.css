@@ -26,7 +26,7 @@ a {
 
 .container-head ul {
     display: flex;
-    align-items: center;
+    align-items: center; /*margin 0 auto*/
 
     font-family: sans-serif;
     font-size: 17px;
@@ -49,16 +49,14 @@ a {
 /*MAIN1*********************************************************************/
 
 .main1 {
-    height: 844px;
+    /*height: 844px;*/
     background-color: #b4d0e7;
-
-    display: flex;
-    justify-content: center;
 }
 
 .container-main1 {
-    width: 1236px;
+    width: 1236px; /*flex basis*/
     padding-top: 100px;
+    margin: 0 auto;
 
     position: relative;
 }
@@ -76,6 +74,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 35px;
 }
 
 .container-main1 h2 {
@@ -96,7 +95,6 @@ a {
     
     font-family: sans-serif;
     font-size: 17px;
-    margin: 35px 0;
 
     width: fit-content;
 }
@@ -106,6 +104,15 @@ a {
 
     position: relative;
     z-index: 3;
+}
+
+.container-main1 i {
+    z-index: 3;
+
+    font-size: 44px;
+    position: relative;
+
+    bottom: 100px;
 }
 
 .white-bg-overlay {
@@ -121,9 +128,20 @@ a {
     z-index: 2;
 }
 
+/*MAIN2*********************************************************************/
+
+.container-main2 {
+    width: 1050px;
+    margin: 0 auto;
+}
+
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
 
 .debug .container-main1 {
+    border: 3px dotted red;
+}
+
+.debug .container-main2 {
     border: 3px dotted red;
 }
 
