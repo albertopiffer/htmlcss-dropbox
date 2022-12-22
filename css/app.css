@@ -68,7 +68,7 @@ a {
     gap: 30px 0;
 }
 
-.card1 {
+.container-main1 .card {
     width: 380px;
 
     display: flex;
@@ -133,6 +133,38 @@ a {
 .container-main2 {
     width: 1050px;
     margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-main2 li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.container-main2 li:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    
+    padding-right: 5px;
+}
+
+.list2m2 li::before {
+    content: "\f00c";
+    color: #005eff;
+}
+
+.li-user1::before {
+    content: "\f007";
+}
+
+.li-folder::before {
+    content: "\f07b";
+}
+
+.li-share::before {
+    content: "\f1e0";
 }
 
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
