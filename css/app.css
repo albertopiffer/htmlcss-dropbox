@@ -13,6 +13,10 @@ a {
 	color: currentColor;
 }
 
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
 /*HEADER********************************************************************/
 
 .container-head {
@@ -414,3 +418,5 @@ a {
 .debug .col {
     border: 2px solid black;
 }
+
+/*NB MOLTE CLASSI SONO RIDONDANTI (VEDI H2) RICORDARSI DI DARE UNA SISTEMATA ALLA FINE*/
