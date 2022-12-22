@@ -331,7 +331,7 @@ a {
     margin: 175px auto;
 
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .container-main4 .row {
@@ -365,6 +365,30 @@ a {
     margin: 30px 0;
 }
 
+/*MAIN4*********************************************************************/
+
+.container-main5 {
+    width: 1050px;
+    margin: 225px auto;
+
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.container-main5 .col {
+    width: 60%;
+    margin-bottom: 70px;
+}
+
+.container-main5 h2 {
+    font-size: 42px;
+}
+
+.container-main5 a {
+    color: blue;
+    text-decoration: underline;
+}
+
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
 
 .debug .container-main1 {
@@ -380,6 +404,10 @@ a {
 }
 
 .debug .container-main4 {
+    border: 3px dotted red;
+}
+
+.debug .container-main5 {
     border: 3px dotted red;
 }
 
