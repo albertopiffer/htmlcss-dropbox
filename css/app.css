@@ -44,6 +44,13 @@ a {
     padding: 11px 18px;
     color: white;
     background-color: #0061ff;
+
+    font-family: sans-serif;
+    font-size: 17px;
+
+    width: fit-content;
+
+    display: block;
 }
 
 /*MAIN1*********************************************************************/
@@ -88,17 +95,6 @@ a {
     font-size: 17px;
 }
 
-.button2 {
-    padding: 11px 18px;
-    color: white;
-    background-color: #0061ff;
-    
-    font-family: sans-serif;
-    font-size: 17px;
-
-    width: fit-content;
-}
-
 .container-main1 img {
     width: calc(1235px - 380px - 10px);
 
@@ -134,11 +130,74 @@ a {
     width: 1050px;
     margin: 0 auto;
 
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.container-main2 .row {
     display: flex;
+    justify-content: space-between;
+
     flex-wrap: wrap;
 }
 
+.container-main2 p {
+    padding: 10px 0;
+}
+
+.container-main2 h2 {
+    font-size: 42px;
+}
+
+.radio-m2 {
+    width: 100%;
+}
+
+.radio-m2 input {
+    font-size: 14px;
+
+    margin: 25px;
+}
+
+.container-main2 .card {
+    flex-basis: 30%;
+}
+
+.container-main2 .card-bottom {
+    margin: 33px;
+}
+
+.container-main2 .user-m2 {
+    text-align: center;
+    line-height: 40px;
+
+    border-bottom: 2px solid black;
+}
+
+.container-main2 h3 {
+    font-size: 22px;
+    margin: 16px 0;
+}
+
+.container-main2 .price-m2 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.container-main2 span {
+    color: #9fa6ae;
+    margin: 10px 0;
+
+    display: block;
+}
+
+.container-main2 ul {
+    margin: 40px 0;
+}
+
 .container-main2 li {
+    margin: 13px 0;
+    
     padding-left: 1em;
     text-indent: -1em;
 }
@@ -155,16 +214,34 @@ a {
     color: #005eff;
 }
 
-.li-user1::before {
+.container-main2 .li-user1::before {
     content: "\f007";
 }
 
-.li-folder::before {
+.container-main2 .li-folder::before {
     content: "\f07b";
 }
 
-.li-share::before {
+.container-main2 .li-share::before {
     content: "\f1e0";
+}
+
+.container-main2 .button {
+    margin: 10px 0;
+
+    display: block;
+}
+
+.container-main2 .line-m2 {
+    width: 50px;
+    
+    border-top: 2px grey solid;
+    margin: 20px 0 50px;
+}
+
+.container-main2 h5 {
+    font-size: 17px;
+    padding: 10px 0;
 }
 
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
