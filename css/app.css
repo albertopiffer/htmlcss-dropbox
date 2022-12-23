@@ -319,9 +319,10 @@ body {
     margin: 16px 0;
 }
 
-.button-t {
+.container-main3 .button-t {
     border: 2px solid black;
-    padding: 15px;
+    padding: 0 15px;
+    line-height: 45px;
 
     margin-top: 36px;
     display: block;
@@ -393,7 +394,7 @@ body {
     text-decoration: underline;
 }
 
-/*MAIN5*********************************************************************/
+/*MAIN6*********************************************************************/
 
 .container-main6 {
     font-family: sans-serif;
@@ -478,6 +479,40 @@ body {
     background-color: #ffd830;
 }
 
+/*MAIN7*********************************************************************/
+
+.container-main7 {
+    height: 375px;
+    background-color: #b4d0e7;
+
+    margin-bottom: 175px;
+    padding: 140px 480px;
+
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.container-main7 .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-main7 h2 {
+    font-size: 42px;
+    color: #61082b;
+    width: 500px;
+}
+
+.container-main7 .button-t {
+    background-color: white;
+    border: 2px solid black;
+    padding: 0 15px;
+    line-height: 45px;
+
+    display: block;
+    width: max-content;
+}
+
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
 
 .debug .container-main1 {
@@ -501,6 +536,10 @@ body {
 }
 
 .debug .container-main6 {
+    border: 3px dotted red;
+}
+
+.debug .container-main7 {
     border: 3px dotted red;
 }
 
