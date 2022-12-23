@@ -112,7 +112,7 @@ body {
     font-size: 44px;
     position: relative;
 
-    bottom: 140px;
+    bottom: 125px;
 }
 
 .white-bg-overlay {
@@ -369,11 +369,11 @@ body {
     margin: 30px 0;
 }
 
-/*MAIN4*********************************************************************/
+/*MAIN5*********************************************************************/
 
 .container-main5 {
     width: 1050px;
-    margin: 225px auto;
+    margin: 225px auto 150px;
 
     font-family: sans-serif;
     font-size: 19px;
@@ -391,6 +391,54 @@ body {
 .container-main5 a {
     color: blue;
     text-decoration: underline;
+}
+
+/*MAIN5*********************************************************************/
+
+.container-main6 {
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.container-main6 .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-main6 .card {
+    flex-basis: 33%;
+}
+
+.container-main6 .card2 {
+    flex-basis: 50%;
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+
+    aspect-ratio: 1/1;
+}
+
+.card2 img {
+    width: 150px;
+    filter: invert(1);
+}
+
+.designit {
+    background-color: #a2d39b;
+}
+
+.arizona {
+    background-color: #61082b;
+}
+
+.florida {
+    background-color: #0093ce;
+}
+
+.topps {
+    background-color: #ff1c1c;
 }
 
 /*DEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUGDEBUG*/
@@ -415,7 +463,15 @@ body {
     border: 3px dotted red;
 }
 
+.debug .container-main6 {
+    border: 3px dotted red;
+}
+
 .debug .col {
+    border: 2px solid black;
+}
+
+.debug .card2 {
     border: 2px solid black;
 }
 
